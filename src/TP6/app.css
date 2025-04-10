@@ -1,0 +1,142 @@
+body {
+    background-color: #f4f6f6;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .app-header {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .search-bar {
+    background-color: #2c3e50;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .search-bar h3 {
+    color: #ecf0f1;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .search-bar button:hover {
+    background-color: #2980b9;
+  }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }  
+  
+  .type-card {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .type-card p {
+    font-size: 18px;
+    margin: 0;
+    color: #34495e;
+  }
+  
+  .type-card strong {
+    color: #1abc9c;
+  }
+  
+  .result-list {
+    background-color: #2c3e50;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .result-list h3 {
+    color: #ecf0f1;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .result-list ul {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .result-list li {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    background-color: #1abc9c;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .result-list li:hover {
+    background-color: #16a085;
+  }
+  
+  .result-list .no-results {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #bdc3c7;
+  }
+  

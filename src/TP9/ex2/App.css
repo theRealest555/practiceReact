@@ -1,0 +1,95 @@
+/* Global styles for the app */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for the product list */
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  /* Button styles */
+  .btn-group button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+  }
+  
+  .btn-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Product title and price */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Product detail page */
+  .product-detail {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .product-detail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .product-detail h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .product-detail p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .back-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .back-button:hover {
+    background-color: #218838;
+  }
+  

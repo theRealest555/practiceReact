@@ -1,0 +1,12 @@
+.stagiaire {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  .stagiaire img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
